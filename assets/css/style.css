@@ -1059,11 +1059,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 2px solid #c7bba4;
+  border: 2px solid #00456a;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #00456a;
+  background-color: #a0bcd5;
 }
 
 @media (max-width: 767px) {
@@ -1233,7 +1233,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f1f7fd;
+  background: rgba(160, 188, 213, 0.1);
   align-items: center;
   text-align: center;
 }
