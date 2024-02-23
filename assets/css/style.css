@@ -71,13 +71,12 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  border: 1px solid #00456a;
   width: 40px;
   height: 40px;
   border-radius: 2px;
   transition: all 0.4s;
-  background: none;
-  color: #00456a;
+  background: #00456a;
+  color: #fff;
 }
 
 .back-to-top:focus,
@@ -94,14 +93,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #00456a;
+  color: #fff;
   line-height: 0;
   font-weight: 500;
-  background: none;
 }
 
 .back-to-top:hover {
-  background: #00456a;
+  background: #7b1232;
   color: #fff;
 }
 
@@ -219,9 +217,8 @@ h6 {
 }
 
 .appointment-btn:hover {
-  border: 1px solid #00456a;
-  color: #00456a;
-  background-color: #fff;
+  color: #fff;
+  background-color: #7b1232;
   font-weight: 500;
 }
 
@@ -931,7 +928,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit]:hover {
-  background: #a0bcd5;
+  background: #00456a;
 }
 
 /*--------------------------------------------------------------
@@ -1252,8 +1249,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fff;
-  color: #00456a;
+  background: #7b1232;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -1370,7 +1367,7 @@ section {
 
 #footer .credits a:hover {
   padding-top: 5px;
-  color: #a0bcd5;
+  color: #7b1232;
 }
 
 #footer .social-links a {
@@ -1388,6 +1385,6 @@ section {
 }
 
 #footer .social-links a:hover {
-  color: #a0bcd5;
+  color: #7b1232;
 
 }
