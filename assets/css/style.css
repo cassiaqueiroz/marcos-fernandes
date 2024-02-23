@@ -681,7 +681,7 @@ section {
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #00456a;
+  color: #7b1232;
   margin-bottom: 15px;
 }
 
@@ -955,12 +955,12 @@ section {
 }
 
 .departments .nav-link:hover {
-  color: #00456a;
+  color: #111;
 }
 
 .departments .nav-link.active {
   color: #fff;
-  background: #00456a;
+  background: #7b1232;
   padding-left: 20px;
 
 }
@@ -1073,11 +1073,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #00456a;
+  border: 1px solid #7b1232;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #00456a;
+  background-color: #7b1232;
   border: none;
 }
 
@@ -1118,7 +1118,6 @@ section {
 
 .contact .info i {
   font-size: 22px;
-  color: white;
   float: left;
   width: 44px;
   height: 44px;
@@ -1126,7 +1125,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed #00456a;
+  border: 2px dashed #7b1232;
   color: #00456a;
   transition: all 0.3s ease-in-out;
 }
@@ -1218,14 +1217,14 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: none;
-  border-color: #a0bcd5;
+  border-color: #00456a;
 
 
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #00456a;
+  border-color: #7b1232;
 }
 
 .contact .php-email-form input {
