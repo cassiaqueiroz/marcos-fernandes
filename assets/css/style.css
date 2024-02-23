@@ -681,7 +681,7 @@ section {
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #7b1232;
+  color: #00456a;
   margin-bottom: 15px;
 }
 
@@ -960,7 +960,7 @@ section {
 
 .departments .nav-link.active {
   color: #fff;
-  background: #7b1232;
+  background: #00456a;
   padding-left: 20px;
 
 }
@@ -1073,11 +1073,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #7b1232;
+  border: 1px solid #00456a;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7b1232;
+  background-color: #00456a;
   border: none;
 }
 
@@ -1125,8 +1125,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed #7b1232;
-  color: #7b1232;
+  border: 2px dashed #00456a;
+  color: #00456a;
   transition: all 0.3s ease-in-out;
 }
 
