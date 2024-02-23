@@ -1126,7 +1126,7 @@ section {
   justify-content: center;
   align-items: center;
   border: 2px dashed #7b1232;
-  color: #00456a;
+  color: #7b1232;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1217,7 +1217,7 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: none;
-  border-color: #00456a;
+  border-color: #a0bcd5;
 
 
 }
