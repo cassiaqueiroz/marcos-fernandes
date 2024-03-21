@@ -944,9 +944,9 @@ section {
 # Services
 --------------------------------------------------------------*/
 /* Estilo para a lista de serviços */
-#services{
-background: rgba(160, 188, 213, 0.1);
-box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
+#services {
+  background: rgba(160, 188, 213, 0.1);
+  box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.2);
 }
 
 .services .icon-box {
@@ -955,7 +955,10 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
   /* Padding uniforme para espaçamento interno */
   transition: all ease-in-out 0.3s;
   margin: 10px;
-  border: 1px solid;
+  background: white;
+  box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.2);
+
+
 }
 
 /* Estilo para o ícone */
@@ -992,6 +995,8 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
 
 /* Estilo para a lista dentro do ícone-box */
 .services .icon-box ul {
+  font-family: "Quicksand", sans-serif;
+
   list-style: none;
   /* Remove os estilos padrão da lista */
   padding: 0;
@@ -1010,7 +1015,6 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
   /* Tamanho do texto da lista */
   color: #111;
   /* Cor do texto da lista */
-  font-weight: 500;
 }
 
 /* Estilo para a linha de separação */
@@ -1088,7 +1092,6 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
   box-shadow: 0px 4px 8px rgba(44, 73, 100, 0.06);
   position: relative;
   background: linear-gradient(to left, rgba(123, 18, 50, 0.03), rgba(223, 218, 194, 0.2));
-  box-shadow: 0px 6px 6px 0px rgba(223, 218, 194, 0.3);
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1180,7 +1183,7 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
 --------------------------------------------------------------*/
 #tips {
   background: rgba(160, 188, 213, 0.1);
-  box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
+  box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.2);
 }
 
 .tips .content {
@@ -1202,10 +1205,10 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
 
 .tips .content .more-btn {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: #00456a;
   padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
+  color: white;
+  border-radius: 4px;
   transition: all ease-in-out 0.4s;
 }
 
@@ -1214,8 +1217,8 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
 }
 
 .tips .content .more-btn:hover {
-  color: #00456a;
-  background: #fff;
+  background: rgba(123, 18, 50, 1);
+  color: white;
 }
 
 .tips .icon-boxes .icon-box {
@@ -1241,7 +1244,6 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
 
 .tips .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
 }
 
 
@@ -1361,7 +1363,7 @@ box-shadow: 0px 0px 5px 5px rgba(160, 188, 213, 0.1);
   box-shadow: none;
   font-size: 14px;
   background: none;
-  border: 1px solid rgba(160, 188, 213, 0.85);
+  border: 1px solid rgba(0, 69, 106, 0.6);
 
 
 }
