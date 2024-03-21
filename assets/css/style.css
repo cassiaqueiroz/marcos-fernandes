@@ -420,7 +420,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .navbar-mobile a:hover,
@@ -1011,7 +1011,7 @@ section {
   /* Remove o padding à esquerda para criar uma aparência de lista */
   position: relative;
   /* Define a posição dos itens como relativa */
-  font-size: 16px;
+  font-size: 18px;
   /* Tamanho do texto da lista */
   color: #111;
   /* Cor do texto da lista */
