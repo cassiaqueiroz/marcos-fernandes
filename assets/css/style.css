@@ -950,7 +950,7 @@ section {
   /* Padding uniforme para espaçamento interno */
   transition: all ease-in-out 0.3s;
   margin: 10px;
-  border: 2px solid rgba(160, 188, 213, 0.85);
+  border: 1px solid rgba(160, 188, 213, 0.85);
 }
 
 .services .icon-box:hover {
