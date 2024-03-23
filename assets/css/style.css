@@ -972,7 +972,7 @@ section {
   transition: all ease-in-out 0.3s;
   margin: 10px;
   background: white;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -1240,7 +1240,7 @@ section {
   text-align: center;
   border-radius: 4px;
   background: #fff;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
   padding: 40px 30px;
   width: 100%;
 }
