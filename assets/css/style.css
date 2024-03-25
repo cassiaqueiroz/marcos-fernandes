@@ -932,7 +932,7 @@ section {
   margin-bottom: 20px;
   position: relative;
   z-index: 2;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra aos ícones */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15); /* Adiciona sombra aos ícones */
 
 }
 
@@ -1047,9 +1047,9 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
   min-height: 200px;
-  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.09);
   position: relative;
-  background: rgba(199, 187, 164, 0.18);
+  background: rgba(199, 187, 164, 0.2);
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1075,7 +1075,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(160, 188, 213, 0.8);
+  color: rgba(160, 188, 213, 0.85);
   font-size: 26px;
 }
 
