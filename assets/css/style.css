@@ -492,7 +492,6 @@ h6 {
   filter: grayscale(100%) brightness(0.4);
 }
 
-
 #hero .container {
   position: relative;
 }
@@ -510,7 +509,6 @@ h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
   font-weight: medium;
-
 }
 
 .icon-spacing {
@@ -519,50 +517,24 @@ h6 {
 
 #hero .crm {
   font-size: 22px;
-
 }
 
 #hero .crm span {
   font-size: 19px;
   font-family: "Quicksand", sans-serif;
-
 }
-
 
 #hero h3 {
   color: whitesmoke;
   margin: 10px 0 0 0;
   font-size: 20px;
   font-weight: normal;
-
-}
-
-#hero .btn-get-started {
-  font-family: "Cormorant SC", serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 35px;
-  margin-top: 30px;
-  border-radius: 5px;
-
-  transition: 0.5s;
-  color: #fff;
-  border: 1px solid #00456a;
-}
-
-#hero .btn-get-started:hover {
-  background: #00456a;
-  font-weight: 500;
 }
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -571,12 +543,9 @@ h6 {
     height: 100vh;
   }
 
-
   #hero .container {
     padding-top: 40px;
   }
-
-
 
   #hero h1 {
     font-size: 34px;
@@ -594,7 +563,6 @@ h6 {
 
   #hero .crm {
     font-size: 19px;
-
   }
 
   #hero .crm span {
@@ -602,16 +570,45 @@ h6 {
   }
 }
 
-@media (max-height: 600px) {
-  #hero {
-    height: 110vh;
-  }
-
-  .btn-get-started {
-    margin-left: 20%;
-  }
-
+#hero .desktop-only {
+  display: none;
 }
+
+#hero .mobile-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #hero .desktop-only {
+    display: inline;
+    position: absolute;
+    bottom: -75%; /* Ajuste conforme necessário */
+    right: 2%; /* Ajuste conforme necessário */
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 9px;
+  }
+
+  #hero .desktop-only a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media (max-width: 767px) {
+  #hero .mobile-only {
+    display: inline;
+    position: absolute;
+    bottom: 10%; /* Ajuste conforme necessário */
+    right: 2%; /* Ajuste conforme necessário */
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 9px;
+  }
+
+  #hero .mobile-only a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -932,7 +929,8 @@ section {
   margin-bottom: 20px;
   position: relative;
   z-index: 2;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15); /* Adiciona sombra aos ícones */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  /* Adiciona sombra aos ícones */
 
 }
 
@@ -987,7 +985,8 @@ section {
   /* Cor da linha de separação */
   z-index: -1;
   /* Coloca a linha de separação atrás dos outros elementos */
-}  
+}
+
 /* Estilo para a lista dentro do ícone-box */
 .services .icon-box ul {
   list-style: none;
@@ -998,11 +997,11 @@ section {
   /* Remove a margem padrão da lista */
   display: flex;
   /* Torna a lista um contêiner flexível */
-  flex-direction:column;
+  flex-direction: column;
   /* Define a direção dos itens da lista como vertical */
   align-items: center;
   /* Alinha os itens verticalmente ao centro */
-  
+
 }
 
 /* Estilo para os itens da lista dentro do ícone-box */
@@ -1023,9 +1022,12 @@ section {
 .services .icon-box ul::after {
   content: '';
   display: block;
-  border-bottom: 2px solid rgba(198, 186, 163, 0.5); /* Linha de separação personalizada */
-  margin-top: 30px; /* Espaçamento entre a linha e o próximo item */
-  width: calc(80% + 10px); /* Largura da linha maior que o texto */
+  border-bottom: 2px solid rgba(198, 186, 163, 0.5);
+  /* Linha de separação personalizada */
+  margin-top: 30px;
+  /* Espaçamento entre a linha e o próximo item */
+  width: calc(80% + 10px);
+  /* Largura da linha maior que o texto */
 
 
 }
@@ -1060,8 +1062,10 @@ section {
   min-height: 200px;
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.09);
   position: relative;
-  background: linear-gradient(to bottom right, rgba(198, 186, 163, 0.15), rgba(211, 208, 200, 0.15)); /* Gradiente sutil de fundo */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+  background: linear-gradient(to bottom right, rgba(198, 186, 163, 0.15), rgba(211, 208, 200, 0.15));
+  /* Gradiente sutil de fundo */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Efeito de transição suave */
   padding-bottom: 40px;
 }
 
@@ -1282,27 +1286,31 @@ section {
 
 @media (max-width: 820px) {
   #contact {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact .info {
-      text-align: justify;
-      display: flex; /* Adiciona display flex */
-      justify-content: center; /* Centraliza horizontalmente */
-      flex-direction: column; /* Coloca os elementos em coluna */
+    text-align: justify;
+    display: flex;
+    /* Adiciona display flex */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    flex-direction: column;
+    /* Coloca os elementos em coluna */
   }
 
   .contact .info i {
-      margin-bottom: 15px; /* Adiciona margem inferior para separar o ícone do texto */
-      float: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 25%;
-      margin-right: 12px;
-    
+    margin-bottom: 15px;
+    /* Adiciona margem inferior para separar o ícone do texto */
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 12px;
+
   }
 }
 
@@ -1371,7 +1379,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #;
+  border-color: rgba(123, 18, 50, 1);
 }
 
 .contact .php-email-form input {
