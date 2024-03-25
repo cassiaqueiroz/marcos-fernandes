@@ -932,6 +932,9 @@ section {
   margin-bottom: 20px;
   position: relative;
   z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Adiciona sombra aos ícones */
+
 }
 
 /* Estilo para o ícone dentro do ícone-box */
@@ -1031,8 +1034,13 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#testimonials {
+  background: white;
+}
+
 .testimonials .testimonial-wrap {
   padding-left: 50px;
+
 }
 
 .testimonials .testimonials-carousel,
@@ -1206,6 +1214,9 @@ section {
 /*--------------------------------------------------------------
 # Address
 --------------------------------------------------------------*/
+#address {
+  background-color: white;
+}
 
 
 /*--------------------------------------------------------------
@@ -1265,27 +1276,31 @@ section {
 
 @media (max-width: 820px) {
   #contact {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact .info {
-      text-align: justify;
-      display: flex; /* Adiciona display flex */
-      justify-content: center; /* Centraliza horizontalmente */
-      flex-direction: column; /* Coloca os elementos em coluna */
+    text-align: justify;
+    display: flex;
+    /* Adiciona display flex */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    flex-direction: column;
+    /* Coloca os elementos em coluna */
   }
 
   .contact .info i {
-      margin-bottom: 15px; /* Adiciona margem inferior para separar o ícone do texto */
-      float: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 25%;
-      margin-right: 12px;
-    
+    margin-bottom: 15px;
+    /* Adiciona margem inferior para separar o ícone do texto */
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 12px;
+
   }
 }
 
