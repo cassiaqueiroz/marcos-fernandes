@@ -582,8 +582,8 @@ h6 {
   #hero .desktop-only {
     display: inline;
     position: absolute;
-    bottom: -75%; /* Ajuste conforme necessário */
-    right: 2%; /* Ajuste conforme necessário */
+    bottom: -190%; /* Ajuste conforme necessário */
+    right: -6%; /* Ajuste conforme necessário */
     color: rgba(255, 255, 255, 0.8);
     font-size: 9px;
   }
