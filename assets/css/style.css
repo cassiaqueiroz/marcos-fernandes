@@ -827,6 +827,22 @@ section {
   border-radius: 0;
 }
 
+.about img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 5px double #00456a;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+.about img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+}
 /*--------------------------------------------------------------
 # Appointments
 --------------------------------------------------------------*/
