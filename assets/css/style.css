@@ -757,6 +757,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.blockquote-custom {
+  position: relative;
+  background-color: rgba(199, 187, 164, 0.2);
+  padding: 20px 30px;
+  border-left: 10px solid rgba(0, 69, 106, 0.7);
+  margin: 20px 0;
+}
+
+
+
+
 .about .icon-boxes h4 {
   font-size: 18px;
   color: #00456a;
@@ -835,14 +846,16 @@ section {
   border: 5px double #00456a;
   border-radius: 20px;
 }
+
 @media (max-width: 767px) {
-.about img {
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  .about img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
-}
+
 /*--------------------------------------------------------------
 # Appointments
 --------------------------------------------------------------*/
