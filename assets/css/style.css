@@ -409,7 +409,7 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display: inline-block;
   }
 
   .navbar ul {
