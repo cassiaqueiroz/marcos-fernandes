@@ -851,13 +851,6 @@ section {
 @media (max-width: 767px) {
   .about img {
     max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #00456a;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 0px rgba(45, 90, 118, 0.25); 
-    filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);
   }
 }
 
