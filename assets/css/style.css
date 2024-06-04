@@ -842,7 +842,7 @@ section {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 2px solid #00456a;
+  border: 4px solid rgba(0, 69, 106, 0.75);
   border-radius: 10px;
   box-shadow: 2px 2px 3px 0px rgba(45, 90, 118, 0.3); 
   filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);
