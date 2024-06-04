@@ -771,6 +771,7 @@ section {
 .about .quote-icon-right {
   color: rgba(198, 186, 163, 0.7);
   font-size: 26px;
+  padding: 5px;
 }
 
 .about .icon-boxes h4 {
