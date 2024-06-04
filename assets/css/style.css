@@ -961,9 +961,7 @@ section {
 }
 
 .services .icon-box {
-  text-align: center;
   padding: 40px;
-  /* Padding uniforme para espaçamento interno */
   transition: all ease-in-out 0.3s;
   margin: 25px;
   background: white;
@@ -983,6 +981,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: justify;
   margin-bottom: 20px;
   position: relative;
   z-index: 2;
@@ -1287,7 +1286,12 @@ section {
 /*--------------------------------------------------------------
 # Address
 --------------------------------------------------------------*/
-
+.address-description {
+  text-align: justify;
+  align-items:center;
+  align-content: center;
+  margin: 30px
+}
 
 /*--------------------------------------------------------------
 # Contact
@@ -1313,7 +1317,7 @@ section {
 
 .contact .info-box {
   color: #000;
-  text-align: center;
+  text-align: justify;
   padding: 20px 0 30px;
   border-radius: 10px;
   background: #fff;
