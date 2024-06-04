@@ -845,7 +845,7 @@ section {
   max-width: 400px;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin-top: 28px;
   border: 3px solid rgba(0, 69, 106, 0.75);
   border-radius: 10px;
   box-shadow: 2px 2px 3px 0px rgba(45, 90, 118, 0.3); 
@@ -855,6 +855,8 @@ section {
 @media (max-width: 767px) {
   .about img {
     max-width: 300px;
+    margin: 0 auto;
+
   }
 }
 
