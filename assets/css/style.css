@@ -1398,6 +1398,7 @@ section {
 
 .contact .info {
   width: 100%;
+  margin-top: 35px;
 }
 
 .contact .info i {
@@ -1434,7 +1435,7 @@ section {
 
 .contact .info .email,
 .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 /*.contact .info .email:hover i,
@@ -1459,6 +1460,13 @@ section {
     /* Centraliza horizontalmente */
     flex-direction: column;
     /* Coloca os elementos em coluna */
+    margin-top: 0;
+
+  }
+
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 40px;
   }
 
   .contact .info i {
