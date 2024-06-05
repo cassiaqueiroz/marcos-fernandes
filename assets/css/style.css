@@ -762,7 +762,7 @@ section {
   background: linear-gradient(36deg, rgba(0, 69, 106, 0.04) 67%, rgba(0, 69, 106, 0.02) 100%);
   padding: 20px 30px;
   border-left: 10px solid rgba(0, 69, 106, 0.6);
-  margin: 20px 40px;
+  margin: 20px 0px;
   line-height: 2.1;
   text-align:inherit;
 }
