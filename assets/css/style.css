@@ -759,7 +759,7 @@ section {
 --------------------------------------------------------------*/
 .blockquote-custom {
   position: relative;
-  background: linear-gradient(36deg, rgba(123, 18, 50, 0.04) 67%, rgba(123, 18, 50, 0.02) 100%);
+  background: linear-gradient(36deg, rgba(198, 186, 163, 0.2) 67%, rgba(198, 186, 163, 0.3) 100%);
   padding: 20px 30px;
   border-left: 7px solid rgba(123, 18, 50, 0.8);
   margin: 20px 0px;
@@ -769,7 +769,7 @@ section {
 
 .about .quote-icon-left,
 .about .quote-icon-right {
-  color: rgba(198, 186, 163, 0.7);
+  color:rgba(123, 18, 50, 0.8);
   font-size: 26px;
   padding: 4px;
 }
