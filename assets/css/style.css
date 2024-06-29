@@ -759,7 +759,7 @@ section {
 --------------------------------------------------------------*/
 .blockquote-custom {
   position: relative;
-  background: linear-gradient(36deg, rgba(0, 69, 106, 0.04) 67%, rgba(0, 69, 106, 0.02) 100%);
+  background: linear-gradient(36deg, rgba(123, 18, 50, 0.04) 67%, rgba(123, 18, 50, 0.02) 100%);
   padding: 20px 30px;
   border-left: 7px solid rgba(123, 18, 50, 0.8);
   margin: 20px 0px;
@@ -982,7 +982,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #7b1232;
+  background: #00456a;
   border-radius: 50%;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -1087,9 +1087,9 @@ section {
   display: block;
   border-bottom: 2px solid rgba(198, 186, 163, 0.5);
   /* Linha de separação personalizada */
-  margin-top: 30px;
   /* Espaçamento entre a linha e o próximo item */
   width: calc(80% + 10px);
+  margin-top: 30px;
   /* Largura da linha maior que o texto */
 
 
@@ -1275,7 +1275,7 @@ section {
 
 .tips .icon-boxes .icon-box i {
   font-size: 40px;
-  color: rgba(123, 18, 50, 0.8);
+  color: #00456a;
   margin-bottom: 30px;
 }
 
@@ -1294,7 +1294,7 @@ section {
 # Address
 --------------------------------------------------------------*/
 .address-description {
-  text-align: justify;
+  text-align: left;
   align-items:center;
   align-content: center;
   margin: 30px
@@ -1409,10 +1409,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed rgba(123, 18, 50, 0.8);
+  border: 2px dashed #00456a;
   margin-top: 0.2em;
   border-radius: 5px;
-  color: rgba(123, 18, 50, 0.8);
+  color: #00456a;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1539,14 +1539,14 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: none;
-  border: 1px solid  rgba(123, 18, 50, 0.6);
+  border: 1px solid rgba(0, 69, 106, 0.7);
 
 
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: rgba(0, 69, 106, 0.7);
+  border-color: rgba(123, 18, 50, 0.85);
 }
 
 .contact .php-email-form input {
@@ -1700,10 +1700,10 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 21px;
+  font-size: 20px;
   display: inline-block;
   background: none;
-  color: #00456a;
+  color: #7b1232;
   line-height: 0;
   padding: 6px 0;
   margin-right: 2px;
@@ -1714,7 +1714,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  color: #7b1232;
+  color: #00456a;
 
 }
 
