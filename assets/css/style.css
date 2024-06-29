@@ -849,14 +849,9 @@ section {
   display: block;
   margin-top: 28px;
   border-radius: 10px;
-  /*filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);*/
-}
-
-.floating-box {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
-  transition: box-shadow 0.3s ease-in-out; /* Transição suave da sombra */
-
-
+  transition: box-shadow 0.3s ease-in-out;
+  /*filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);*/
 }
 
 @media (max-width: 767px) {
