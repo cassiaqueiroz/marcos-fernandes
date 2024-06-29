@@ -761,7 +761,7 @@ section {
   position: relative;
   background: linear-gradient(36deg, rgba(0, 69, 106, 0.04) 67%, rgba(0, 69, 106, 0.02) 100%);
   padding: 20px 30px;
-  border-left: 10px solid rgba(0, 69, 106, 0.6);
+  border-left: 7px solid rgba(123, 18, 50, 0.8);
   margin: 20px 0px;
   line-height: 2.1;
   text-align:inherit;
@@ -848,9 +848,9 @@ section {
   height: auto;
   display: block;
   margin-top: 28px;
-  border: 3px solid rgba(0, 69, 106, 0.6);
+  border: 3px solid rgba(123, 18, 50, 0.8);
   border-radius: 10px;
-  box-shadow: 2px 2px 3px 0px rgba(45, 90, 118, 0.3); 
+  box-shadow: 2px 2px 3px 0px rgba(118, 45, 63, 0.3); 
   filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);
 }
 
@@ -982,9 +982,8 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #00456a;
+  background: #7b1232;
   border-radius: 50%;
-  /* Deixa o ícone redondo */
   transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -1156,7 +1155,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(160, 188, 213, 0.85);
+  color: rgba(123, 18, 50, 0.2);
   font-size: 26px;
 }
 
@@ -1190,11 +1189,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #00456a;
+  border: 1px solid rgba(123, 18, 50, 0.8);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #00456a;
+  background-color: rgba(123, 18, 50, 0.8);
   border: none;
 }
 
@@ -1410,10 +1409,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed #00456a;
+  border: 2px dashed rgba(123, 18, 50, 0.8);
   margin-top: 0.2em;
   border-radius: 5px;
-  color: #00456a;
+  color: rgba(123, 18, 50, 0.8);
   transition: all 0.3s ease-in-out;
 }
 
@@ -1540,14 +1539,14 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: none;
-  border: 1px solid rgba(0, 69, 106, 0.6);
+  border: 1px solid  rgba(123, 18, 50, 0.6);
 
 
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: rgba(123, 18, 50, 1);
+  border-color: rgba(0, 69, 106, 0.7);
 }
 
 .contact .php-email-form input {
