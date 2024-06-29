@@ -765,6 +765,7 @@ section {
   margin: 20px 0px;
   line-height: 2.1;
   text-align:inherit;
+  line-height: normal;
 }
 
 .about .quote-icon-left,
@@ -849,7 +850,7 @@ section {
   display: block;
   margin-top: 28px;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
   transition: box-shadow 0.3s ease-in-out;
   /*filter: brightness(100%) saturate(110%) contrast(100%) hue-rotate(9deg);*/
 }
@@ -857,7 +858,13 @@ section {
 @media (max-width: 767px) {
   .about img {
     max-width: 300px;
-    margin: 0 auto;
+    margin: 30px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s ease-in-out;  
+    display: block;
+    height: auto;
+    border-radius: 10px;
+
 
   }
 }
