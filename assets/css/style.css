@@ -757,33 +757,47 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.diagonal-border {
-  position: relative;
-  padding: 20px;
-  background-color: #f8f9fa;
-}
+ .diagonal-border {
+      position: relative;
+      padding: 20px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: box-shadow 0.3s ease-in-out;
+    }
 
-.diagonal-border::before,
-.diagonal-border::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 10px; /* Altura da borda diagonal */
-  background-color: #000000; /* Cor da borda */
-  z-index: 1; /* Coloca a borda acima do conteúdo */
-}
+    .diagonal-border::before,
+    .diagonal-border::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      background-color: #e9ecef;
+      z-index: 1;
+    }
 
-.diagonal-border::before {
-  top: 0;
-  left: 0;
-  transform: skewY(-3deg); /* Inclinação para cima */
-}
+    .diagonal-border::before {
+      top: 0;
+      left: 0;
+      transform: skewY(-3deg);
+    }
 
-.diagonal-border::after {
-  bottom: 0;
-  left: 0;
-  transform: skewY(3deg); /* Inclinação para baixo */
-}
+    .diagonal-border::after {
+      bottom: 0;
+      left: 0;
+      transform: skewY(3deg);
+    }
+
+    .polaroid-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .polaroid-img {
+      width: 100%;
+      display: block;
+      border: 10px solid #ffffff;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
 
 .blockquote-custom {
   position: relative;
